@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ルクルーゼ | オフィシャルサイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="logo">LE CREUSET</div>
+    <nav>
+        <ul>
+            <li><a href="#about">About the brand</a></li>
+            <li><a href="#products">Product Lineup</a></li>
+            <li><a href="#contact">Contact Address</a></li>
+        </ul>
+    </nav>
+    <a href="#products" class="btn">View Products</a>
+</header>
+
+
+    <main>
+        <section id="hero">
+
+
+
+           <a href="#products" class="btn">View Products</a>
+        </section>
+
+        <section id="about">
+          
+            <h1>Beautiful design and durability</h1>
+            <p>Le Creuset products make cooking more fun and delicious.</p> 
+            <h2>About the brand</h2>
+            <p>Founded in France in 1925, Le Creuset combines traditional techniques with innovation.</p>
+        </section>
+
+        <section id="products">
+            <h2>Product Lineup</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="dutch-oven.jpg" alt="Dutch-oven">
+                    <h3>Dutch-oven</h3>
+                    <p>It makes the best stewed dishes.</p>
+                </div>
+                <div class="product-item">
+                    <img src="stoneware.jpg" alt="Stoneware">
+                    <h3>Stoneware</h3>
+                    <p>Durability and design</p>
+                </div>
+                <div class="product-item">
+                    <img src="mugs.jpg" alt="Mugs">
+                    <h3>Mugs</h3>
+                    <p>A wide range of colors to brighten up your everyday life</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Le Creuset Japan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
